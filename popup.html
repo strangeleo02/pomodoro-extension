@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="light">
+    <div class="theme-toggle">
+        <input type="checkbox" id="theme-switch" class="theme-switch">
+        <label for="theme-switch" class="theme-switch-label">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </label>
+    </div>
+
+    <div class="container">
+        <div class="timer-container">
+            <div class="timer-circle">
+                <div id="timer">25:00</div>
+                <p id="status">work time</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="start" class="control-button">
+                <i class="fas fa-play"></i>
+            </button>
+            <button id="pause" class="control-button" disabled>
+                <i class="fas fa-pause"></i>
+            </button>
+            <button id="reset" class="control-button">
+                <i class="fas fa-redo"></i>
+            </button>
+        </div>
+
+        <div class="settings">
+            <div class="setting-group">
+                <label for="work-duration">Work</label>
+                <input type="number" id="work-duration" value="25" min="1" max="60">
+            </div>
+            <div class="setting-group">
+                <label for="break-duration">Break</label>
+                <input type="number" id="break-duration" value="5" min="1" max="30">
+            </div>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
