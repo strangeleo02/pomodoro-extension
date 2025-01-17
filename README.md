@@ -1,4 +1,4 @@
-
+![Alt text for the image](LightAndDark.png "Optional tooltip text")
 ## Technologies Used
 
 *   **HTML:** For structuring the extension's popup UI.
