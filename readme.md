@@ -1,9 +1,16 @@
 
 ## Technologies Used
-![Alt text for the image]( LightAndDark.png )
+
 *   **HTML:** For structuring the extension's popup UI.
 *   **CSS:** For styling the UI.
 *   **JavaScript:** For the timer logic, handling user interactions, and notifications.
+![Alt text for the image](LightAndDark.png "Optional tooltip text")
+## How to Install
+
+1.  **Download the Extension:** 
+    *   If you're using the packaged extension (.crx file), you can drag and drop the file into your chrome extensions page.
+    *  If you have the extension code locally, go to `chrome://extensions/` in your browser and enable "Developer mode" in the top right corner. Then click "Load unpacked" and select the folder where the extension code resides.
+2.  **Enable the Extension:** Once installed, the extension icon (usually a camera or screen icon) will appear in your browser toolbar.
 
 ## Contributing
 
@@ -23,6 +30,10 @@ Contributions are welcome! Here's how you can contribute:
 *   **Sound Notifications:** Include sound alerts in addition to or instead of visual notifications.
 *   **Statistics:** Track completed work and break sessions.
 *   **More Robust Error Handling:** Add validation to inputs.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt). You are free to use and modify this code for your own projects, but proper attribution is required.
 
 ## Contact
 
